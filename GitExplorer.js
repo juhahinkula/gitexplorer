@@ -20,8 +20,8 @@ export default function GitExplorer() {
   return(
     <View>
       <TextInput 
-        style={{fontSize: 18, width: 200, marginTop: 30}} 
-        placeholder='keyword' 
+        style={{fontSize: 18, width: 200, marginTop: 50}} 
+        placeholder='Enter keyword...' 
         value={keyword}
         onChangeText={text => setKeyword(text)} 
       />
