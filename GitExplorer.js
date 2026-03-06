@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { View, Text, TextInput, Button, FlatList, StyleSheet } from "react-native"
+import { View, Text, TextInput, Button, FlatList } from "react-native"
 
 export default function GitExplorer() {
   const [keyword, setKeyword] = useState('');
